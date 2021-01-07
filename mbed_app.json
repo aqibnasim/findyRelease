@@ -1,0 +1,8 @@
+{ 
+    "target_overrides": { 
+        "NRF52_DK": { 
+            "target.features_add": ["BLE"], 
+			"target.console-uart": false
+        } 
+    } 
+}
